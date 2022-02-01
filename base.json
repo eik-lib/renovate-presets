@@ -1,0 +1,31 @@
+{
+    "extends": [
+      "config:base",
+      "group:linters"
+    ],
+    "packageRules": [
+      {
+        "depTypeList": ["dependencies"],
+        "automerge": true,
+        "major": {
+          "automerge": false
+        }
+      },
+      {
+        "depTypeList": ["devDependencies"],
+        "schedule": ["before 4am on monday"],
+        "automerge": true,
+        "major": {
+          "automerge": false
+        }
+      },
+      {
+        "groupName": "Semantic Release packages",
+        "packagePatterns": ["^@semantic-release/"]
+      },
+      {
+        "groupName": "Eik packages",
+        "packagePatterns": ["^@eik/"]
+      }
+    ]
+}
