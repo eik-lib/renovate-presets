@@ -1,0 +1,33 @@
+{
+  "extends": ["config:base"],
+  "packageRules": [
+    {
+      "depTypeList": ["dependencies"],
+      "schedule": ["before 4am on monday"],
+      "automerge": true,
+      "major": {
+        "automerge": false
+      }
+    },
+    {
+      "depTypeList": ["devDependencies"],
+      "schedule": ["before 4am on the first day of the month"],
+      "automerge": true,
+      "major": {
+        "automerge": false
+      }
+    },
+    {
+      "groupName": "Semantic Release packages",
+      "packagePatterns": ["^@semantic-release/", "semantic-release"]
+    },
+    {
+      "groupName": "ESlint packages",
+      "packagePatterns": ["eslint", "eslint-config-airbnb-base", "eslint-plugin-import"]
+    },
+    {
+      "groupName": "Eik packages",
+      "packagePatterns": ["^@eik/"]
+    }
+  ]
+}
