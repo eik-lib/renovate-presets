@@ -22,7 +22,11 @@
     },
     {
       "groupName": "ESlint packages",
-      "packagePatterns": ["eslint", "eslint-config-airbnb-base", "eslint-plugin-import"]
+      "packagePatterns": [
+        "eslint",
+        "eslint-config-airbnb-base",
+        "eslint-plugin-import"
+      ]
     },
     {
       "groupName": "Eik packages",
