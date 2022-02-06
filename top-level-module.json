@@ -22,11 +22,15 @@
       "packagePatterns": ["^@semantic-release/", "semantic-release"]
     },
     {
-      "groupName": "ESlint packages",
+      "groupName": "ESlint and Prettier packages",
       "packagePatterns": [
-        "eslint",
         "eslint-config-airbnb-base",
-        "eslint-plugin-import"
+        "eslint-config-prettier",
+        "eslint-plugin-prettier",
+        "eslint-plugin-import",
+        "@babel/eslint-parser",
+        "prettier",
+        "eslint"
       ]
     },
     {
