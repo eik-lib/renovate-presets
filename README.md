@@ -65,7 +65,7 @@ To use the preset for sub modules within another module, add the following confi
 
 ## Dev dependencies
 
-Dev dependencies is updated once a month. Both top and sub modules have the same dev dependency preset. 
+Dev dependencies are updated once a month. Both top level and sub modules have the same dev dependency preset.
 
 ## License
 
