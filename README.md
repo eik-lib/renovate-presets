@@ -15,7 +15,7 @@ As an example lets say we have a set of modules using Renovate Bot and Semantic 
 
 `@eik/module-a` and `@eik/module-b` depend on the same `3rd-party-dependency`.
 
-The `@eik/module-a` is a publicly facing module. Its a module which others will use as a dependency. `@eik/module-b` is __not__ a publicly facing module. Its an internal module which contain code only of interest of other modules in our organization and it should never be used by externals as a dependency.
+`@eik/module-a` is a public facing module that other modules can use as a dependency. `@eik/module-b` is __not__ a public facing module. Rather, it's an internal module which contains code that is only of interest to other modules within our organisation and it should never be used as a dependency by external modules.
 
 If we where to use the default configuration from Renovate Bot the following would happen when we have Semantic Release in our setup and there is a new version of the `3rd-party-dependency`: `@eik/module-a` would get a PR with an update of the `3rd-party-dependency` and when merged a new release of `@eik/module-a` would be cut. Meanwhile `@eik/module-b` would also get a PR with an update of the `3rd-party-dependency` and when merged a new release of `@eik/module-b` would also be cut. 
 
