@@ -1,6 +1,6 @@
 # Renovate bot presets
 
-This repo contain a set of [Renovate Bot](https://www.whitesourcesoftware.com/free-developer-tools/renovate/) presets modules in this organization can depend on.
+This repo contain a set of [Renovate Bot](https://www.whitesourcesoftware.com/free-developer-tools/renovate/) presets that modules in this organization can depend on.
 
 The purpose of these presets is to be able to optimize the process of keeping dependencies up to date accross all modules in this organization while minimizing the amount of releases of each module in this organization caused by automatically bumping dependencies.
 
