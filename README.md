@@ -21,7 +21,7 @@ If we were to use the default configuration from Renovate Bot the following woul
 
 This release of `@eik/module-b` would again create a new PR in `@eik/module-a` and cause a new release of `@eik/module-a` when merged. 
 
-In other words; Due to both `@eik/module-a` and `@eik/module-b` depending on `3rd-party-dependency` an update of `3rd-party-dependency` will cause two releases of `@eik/module-a`. Which is not optimal.
+In other words; Due to both `@eik/module-a` and `@eik/module-b` depending on `3rd-party-dependency` an update of `3rd-party-dependency` will cause two releases of `@eik/module-a` which is not optimal.
 
 ## Module categorisation
 
