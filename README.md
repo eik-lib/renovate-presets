@@ -29,7 +29,7 @@ To deal with problems such as that described in the introduction above we separa
 
 In short; sub modules receive and merge dependencies as they arrive. Top level modules receive and merge dependencies on a less frequent schedule. This more or less removes the problem outlined above.
 
-### Top modules
+### Top level modules
 
 Top modules is publicly facing modules. This is modules which others will use as a dependency. 
 
