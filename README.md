@@ -33,7 +33,7 @@ In short; sub modules receive and merge dependencies as they arrive. Top level m
 
 Top level modules are publicly facing modules. These are modules that other external modules and projects will use as a dependency. 
 
-Top modules has its dependencies updated once a week.
+Top level modules have their dependencies updated once a week.
 
 To use the preset for top modules in a module add the following config to `renovate.json`:
 
