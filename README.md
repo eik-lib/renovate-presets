@@ -27,7 +27,7 @@ In other words; Due to both `@eik/module-a` and `@eik/module-b` depending on `3r
 
 To deal with problems such as that described in the introduction above we separate modules into two categories, top level modules and sub modules, where each category has slightly different groupings and dependency strategies.
 
-In short; sub modules recieve and merge dependencies as they arrive. Top modules recieve and merge dependencies on a less frequent schedule. This more or less removes the above outlined problem.
+In short; sub modules receive and merge dependencies as they arrive. Top level modules receive and merge dependencies on a less frequent schedule. This more or less removes the problem outlined above.
 
 ### Top modules
 
