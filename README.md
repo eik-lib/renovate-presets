@@ -13,7 +13,7 @@ As an example lets say we have a set of modules using Renovate Bot and Semantic 
       |--/3rd-party-dependency
 ```
 
-There is a `@eik/module-a` which depend on `3rd-party-dependency` and a `@eik/module-b`. `@eik/module-b` do also depend on the same `3rd-party-dependency`.
+`@eik/module-a` and `@eik/module-b` depend on the same `3rd-party-dependency`.
 
 The `@eik/module-a` is a publicly facing module. Its a module which others will use as a dependency. `@eik/module-b` is __not__ a publicly facing module. Its an internal module which contain code only of interest of other modules in our organization and it should never be used by externals as a dependency.
 
