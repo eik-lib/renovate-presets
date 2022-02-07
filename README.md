@@ -52,7 +52,7 @@ Sub modules are __not__ publicly facing. These are internal modules which contai
 
 Sub modules have their dependencies updated as they are published.
 
-To use the preset for sub modules in a module add the following config to `renovate.json`:
+To use the preset for sub modules within another module, add the following config to `renovate.json`:
 
 ```json
 {
