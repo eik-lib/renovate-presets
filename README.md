@@ -31,7 +31,7 @@ In short; sub modules receive and merge dependencies as they arrive. Top level m
 
 ### Top level modules
 
-Top modules is publicly facing modules. This is modules which others will use as a dependency. 
+Top level modules are publicly facing modules. These are modules that other external modules and projects will use as a dependency. 
 
 Top modules has its dependencies updated once a week.
 
