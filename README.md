@@ -48,7 +48,7 @@ To use the preset for top level modules within another module, add the following
 
 ### Sub modules
 
-Sub modules is __not__ publicly facing modules. They are internal modules which contain code only of interest of top modules and hey should never be used by externals as a dependency.
+Sub modules are __not__ publicly facing. These are internal modules which contain code only of interest to top level modules and should never be used by external projects and modules as dependencies.
 
 Sub modules has its dependencies updated as they are published.
 
