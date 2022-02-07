@@ -35,7 +35,7 @@ Top level modules are publicly facing modules. These are modules that other exte
 
 Top level modules have their dependencies updated once a week.
 
-To use the preset for top modules in a module add the following config to `renovate.json`:
+To use the preset for top level modules within another module, add the following config to `renovate.json`:
 
 ```json
 {
