@@ -4,7 +4,7 @@ This repo contain a set of [Renovate Bot](https://www.whitesourcesoftware.com/fr
 
 The purpose of these presets is to be able to optimize the process of keeping dependencies up to date accross all modules in this organization while minimizing the amount of releases of each module in this organization caused by automatically bumping dependencies.
 
-As an example lets say we have a set of modules all under Renovate Bot and Semantic Release structured like so:
+As an example lets say we have a set of modules using Renovate Bot and Semantic Release structured like so:
 
 ```sh
 |--/@eik/module-a
