@@ -50,7 +50,7 @@ To use the preset for top level modules within another module, add the following
 
 Sub modules are __not__ publicly facing. These are internal modules which contain code only of interest to top level modules and should never be used by external projects and modules as dependencies.
 
-Sub modules has its dependencies updated as they are published.
+Sub modules have their dependencies updated as they are published.
 
 To use the preset for sub modules in a module add the following config to `renovate.json`:
 
