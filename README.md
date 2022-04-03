@@ -7,10 +7,10 @@ The purpose of these presets is to be able to optimize the process of keeping de
 As an example lets say we have a set of modules using Renovate Bot and Semantic Release structured like so:
 
 ```sh
-|--/@eik/module-a
-   |--/3rd-party-dependency
-   |--/@eik/module-b
-      |--/3rd-party-dependency
+|-- @eik/module-a
+|   |-- 3rd-party-dependency
+|   |-- @eik/module-b
+|   |   |-- 3rd-party-dependency
 ```
 
 `@eik/module-a` and `@eik/module-b` depend on the same `3rd-party-dependency`.
