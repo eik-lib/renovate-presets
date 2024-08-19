@@ -17,22 +17,6 @@
       }
     },
     {
-      "groupName": "Semantic Release packages",
-      "packagePatterns": ["^@semantic-release/", "semantic-release"]
-    },
-    {
-      "groupName": "ESlint and Prettier packages",
-      "packagePatterns": [
-        "eslint-config-airbnb-base",
-        "eslint-config-prettier",
-        "eslint-plugin-prettier",
-        "eslint-plugin-import",
-        "@babel/eslint-parser",
-        "prettier",
-        "eslint"
-      ]
-    },
-    {
       "groupName": "Eik packages",
       "packagePatterns": ["^@eik/"]
     }
